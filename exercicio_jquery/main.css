@@ -1,18 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    background-color: #e2dfdf;
 }
 
 header{
-    background-color: #5f27cd;
     padding: 20px 0;
-    color: #fff;
+    color: #000;
     display: flex;
     justify-content: center;
-    text-transform: uppercase;
-    font-style: italic;
+    margin-top: 40px;
 }
 
 header button{
@@ -20,10 +18,8 @@ header button{
 }
 
 form{
-    background-color: #5f27cd;
     padding: 10px 0;
     text-align: center;
-    border-bottom: 16px solid #341f97;
     color: #fff;
 }
 
@@ -33,19 +29,24 @@ form h2{
 
 input, button{
     padding: 8px;
+    border-color: #c7c4c4;
+}
+
+#tarefa{
+    background-color: #fff;
 }
 
 button{
-    background-color: #009432;
-    border: none;
+    background-color: #dddada;
     cursor: pointer;
     font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
+    color: #000;
 }
 
 ul{
-    padding: 10px;
     cursor: pointer;
-    position: absolute;
+    text-align: justify;
+    margin: 20px auto;
+    width: 200px;
 }
+
