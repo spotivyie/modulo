@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .card img{
+        max-width: 100%;
+    }
+    
+    .row{
+        flex-direction: column;
+        width: 320%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .row{
+        flex-direction: column;
+        width: 500%;
+    
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+}
